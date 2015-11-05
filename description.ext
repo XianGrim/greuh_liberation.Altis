@@ -7,7 +7,7 @@ allowFunctionsLog = 0;
 
 loadScreen="res\liberation.jpg";
 onLoadMission = $STR_MISSION_TITLE;
-author = "[GREUH] Zbug, [GREUH] McKeewa";
+author = "[GREUH] Zbug, [GREUH] McKeewa -Edits by PDG";
 onLoadName = $STR_MISSION_TITLE;
 
 joinUnassigned = 0;
