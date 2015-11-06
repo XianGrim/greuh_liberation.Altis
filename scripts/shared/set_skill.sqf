@@ -12,26 +12,26 @@ if ( _wounded ) then {
 	_unit setSkill ["aimingspeed", [ 0.15 * _skillmodifier ] call F_limitSkill ];
 	_unit setSkill ["aimingaccuracy", [ 0.03 * _skillmodifier ] call F_limitSkill ];
 	_unit setSkill ["aimingshake", 0];
-	_unit setSkill ["spottime", 0.5];
+	_unit setSkill ["spottime", 0.3];
 	_unit setSkill ["spotdistance", 0.25];
 	_unit setSkill ["commanding", 0.1];
 	_unit setSkill ["reloadSpeed", 0.1];
 } else {
 	if ( _side == WEST || _side == EAST ) then {
-		_unit setSkill ["aimingspeed", [ 0.35 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["aimingaccuracy", [ 0.3 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["aimingshake", [ 0.35 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["spottime", [ 0.5 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["spotdistance", [ 0.5 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["commanding", 0.5];
-		_unit setSkill ["reloadSpeed", 0.7];
+		_unit setSkill ["aimingspeed", [ 0.25 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["aimingaccuracy", [ 0.2 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["aimingshake", [ 0.25 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["spottime", [ 0.4 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["spotdistance", [ 0.4 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["commanding", 0.4];
+		_unit setSkill ["reloadSpeed", 0.6];
 	} else {
-		_unit setSkill ["aimingspeed", [ 0.35 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["aimingaccuracy", [ 0.25 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["aimingshake", [ 0.35 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["spottime", [ 0.5 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["spotdistance", [ 0.5 * _skillmodifier ] call F_limitSkill];
-		_unit setSkill ["commanding", 0.5];
-		_unit setSkill ["reloadSpeed", 0.5];
+		_unit setSkill ["aimingspeed", [ 0.25 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["aimingaccuracy", [ 0.15 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["aimingshake", [ 0.25 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["spottime", [ 0.4 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["spotdistance", [ 0.4 * _skillmodifier ] call F_limitSkill];
+		_unit setSkill ["commanding", 0.4];
+		_unit setSkill ["reloadSpeed", 0.4];
 	};
 };
