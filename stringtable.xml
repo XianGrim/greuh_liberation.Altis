@@ -33,12 +33,12 @@
                         <German>Ich brauche einen Sanitäter!</German>
                 </Key>
                 <Key ID="STR_FAR_Need_Medic2">
-                        <Original>I'm hit! Medic!</Original>
+                        <Original>Damn, I'm hit! Medic!</Original>
                         <French>Je suis touché! Medic!</French>
                         <German>Wurde getroffen! Sanitäter!</German>
                 </Key>
                 <Key ID="STR_FAR_Need_Medic3">
-                        <Original>I'm down! Medic!</Original>
+                        <Original>Shit! I'm down! Medic!</Original>
                         <French>Je suis à terre! Medic!</French>
                         <German>Ich bin gefallen! Sanitäter!</German>
                 </Key>
@@ -78,12 +78,12 @@
                         <German>Treibstoff</German>
                 </Key>
                 <Key ID="STR_BLEEDOUT_MESSAGE">
-                        <Original>Bleedout in %1 seconds</Original>
+                        <Original>You will Bleedout in %1 seconds</Original>
                         <French>Mort dans %1 secondes</French>
                         <German>Ausbluten in %1 Sekunden</German>
                 </Key>
                 <Key ID="STR_BLEEDOUT_STABILIZED">
-                        <Original>Stabilized</Original>
+                        <Original>You've been Stabilized</Original>
                         <French>Stabilisé</French>
                         <German>Stabilisiert</German>
                 </Key>
